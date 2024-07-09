@@ -112,4 +112,32 @@
     .opcoes__botao {
         display: none;
     }
+
+    .container__texto {
+
+    }
+}
+
+
+
+@media screen and (min-width: 1728px){
+    .container__link {
+       display: flex; 
+       align-items: center;
+       text-decoration: none;
+       color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
+    }
+
 }
